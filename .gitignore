@@ -1,0 +1,5 @@
+/.idea
+# models surpass githubs 100mb file size limit
+EX1/llm-part/model2/model.safetensors
+EX1/llm-part/model4/model.safetensors
+EX1/llm-part/model8/model.safetensors
