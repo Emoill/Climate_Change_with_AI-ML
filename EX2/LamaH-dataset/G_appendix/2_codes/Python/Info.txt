@@ -1,0 +1,3 @@
+Executed with QGIS 3.4, Python Console
+The Python-codes presuppose that all imported shapefiles are already in the same coordinate system.
+The shapefiles delivered with LamaH-CE are already all in EPSG 3035.
