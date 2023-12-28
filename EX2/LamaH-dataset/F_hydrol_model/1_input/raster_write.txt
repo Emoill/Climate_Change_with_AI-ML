@@ -1,0 +1,24 @@
+write_output: # 0 - no write, 1 - write
+  0
+raster_header:
+  ncols         610
+  nrows         407
+  xllcorner     13855
+  yllcorner     276198
+  cellsize      1000
+  NODATA_value  -9999
+  Proj          LCC
+output_path:
+  output/
+nd_start:
+  1
+nd_end:
+  1
+---
+NZ_	NROW_	NCOL_	Prop
+1	215	4	0.33
+1	215	5	0.19
+1	215	6	0.01
+1	215	7	0.11
+1	215	8	0.14
+1	215	9	0.06 

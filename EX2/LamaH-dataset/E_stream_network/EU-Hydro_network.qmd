@@ -1,0 +1,56 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.4.15-Madeira">
+  <identifier>LamaH\E_stream_network\EU-Hydro_network.shp</identifier>
+  <parentidentifier>LamaH</parentidentifier>
+  <language>en</language>
+  <type>dataset</type>
+  <title>EU-Hydro_network.shp</title>
+  <abstract>Shapefile belonging to the paper "LamaH | Large-Sample Data for Hydrology and Environmental Sciences for Central Europe", submitted to the journal ESSD (Earth System Science Data) in March 2021.
+
+The features in this shapefile show river segments of the dataset "EU-Hydro_network".
+
+The shapefile EU-Hydro_network contains the layers "Canals_I" and "River_Net_I" (see documentation listed below) from the basins Rhine, Elbe and Danube.
+A Strahler order of -1  indicates artificial channels. 
+
+30 attributes, see documentation at:
+https://land.copernicus.eu/user-corner/technical-library/eu-hydro_user_guide.pdf
+
+Reference: 
+EEA: EU-Hydro – River Network Database, Version 1.2, European Environment Agency under the framework of the Copernicus programme, available at: https://land.copernicus.eu/imagery-in-situ/eu-hydro/eu-hydro-river-network-database (last access: 22.10.2020), 2019.</abstract>
+  <contact>
+    <name>University of Natural Resources and Life Sciences, Institute for Hydrology and Water Management (HyWa), Vienna</name>
+    <organization></organization>
+    <position></position>
+    <voice></voice>
+    <fax></fax>
+    <email></email>
+    <role></role>
+  </contact>
+  <links>
+    <link type="download" description="" url="https://doi.org/10.5281/zenodo.4525244" name="Zenodo" format="" mimeType="" size=""/>
+  </links>
+  <fees></fees>
+  <license>Creative Commons Attribution 4.0</license>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys>
+      <proj4>+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>1000</srsid>
+      <srid>3035</srid>
+      <authid>EPSG:3035</authid>
+      <description>ETRS89 / LAEA Europe</description>
+      <projectionacronym>laea</projectionacronym>
+      <ellipsoidacronym>GRS80</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial miny="2581796.05170000018551946" maxy="3037917.62030000006780028" maxz="0" minx="4183508.86799999978393316" maxx="4929199.45980000030249357" minz="0" crs="EPSG:3035" dimensions="2"/>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>

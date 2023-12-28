@@ -1,0 +1,26 @@
+This file contains meteorolgical default settings for the COSERO model
+
+datafiles must have the format; one row for every timestep and without header
+[YYYY MM DD hh mm "value for every single zone (sorted by NZ=1 to i"], e.g.
+2003 1 2 0 0 0.6 0.8 0.75 .....
+2003 1 2 1 0 0.2 0.0 0.5 .....
+.
+.
+.
+
+### USER action necessary below ###
+
+ASCIIorBIN (define, if datafiles are ASCII (0) or Binary (1); relevant for all following files)
+0
+
+PRECFILE (input binary/ASCII precipitation file, read in from directory "/input")
+ERA5L_P.txt
+
+TEMPFILE (input binary/ASCII temperature file, read in from directory "/input")
+ERA5L_T.txt
+
+ETPCONTROL (define, how evapotranspiration is calculated; 0 = Thornthwaite, 1 = external datafile)
+0
+
+ETPFILE (input binary/ASCII ETP file; relevant, if ETPCONTROL=1)
+ETP.txt

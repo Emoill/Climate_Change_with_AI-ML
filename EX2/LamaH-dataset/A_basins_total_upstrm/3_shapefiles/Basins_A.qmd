@@ -1,0 +1,49 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.4.15-Madeira">
+  <identifier>LamaH\A_basins_total_upstrm\3_shapefiles\Basins_A.shp</identifier>
+  <parentidentifier>LamaH</parentidentifier>
+  <language>en</language>
+  <type>dataset</type>
+  <title>Basins_A.shp</title>
+  <abstract>Shapefile belonging to the paper "LamaH | Large-Sample Data for Hydrology and Environmental Sciences for Central Europe", submitted to the journal ESSD (Earth System Science Data) in March 2021.
+
+The features in this shapefile show the basins delineated with method A.
+
+Attributes are described in the appendix of the mentioned paper.</abstract>
+  <contact>
+    <name>University of Natural Resources and Life Sciences, Institute for Hydrology and Water Management (HyWa), Vienna</name>
+    <organization></organization>
+    <position></position>
+    <voice></voice>
+    <fax></fax>
+    <email></email>
+    <role></role>
+  </contact>
+  <links>
+    <link description="" name="Zenodo" mimeType="" size="" format="" type="download" url="https://doi.org/10.5281/zenodo.4525244"/>
+  </links>
+  <fees></fees>
+  <license>Creative Commons Attribution 4.0</license>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys>
+      <proj4>+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>1000</srsid>
+      <srid>3035</srid>
+      <authid>EPSG:3035</authid>
+      <description>ETRS89 / LAEA Europe</description>
+      <projectionacronym>laea</projectionacronym>
+      <ellipsoidacronym>GRS80</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial minz="0" miny="2580301.9678000002168119" maxx="4930898.93960000015795231" dimensions="2" minx="4183467.38359999982640147" maxz="0" crs="EPSG:3035" maxy="3038515.41930000018328428"/>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>

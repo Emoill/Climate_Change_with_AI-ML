@@ -1,0 +1,52 @@
+This file contains default settings for the CODIRO Model.
+
+PROJECTINFO (default project info, written into first line of each output file)
+COSERO_LamaH_daily
+
+DATAFILE (default input data file, read in from directory "input")
+Qobs.txt
+
+BINDATAFILE (default input binary data file, read in from directory "cdr/input")
+not_used.dat
+
+PARAFILE (default input parameter file, read in from directory "input")
+parameter.txt
+
+IKL (# of snow classes)
+5
+
+NCLASS (# of Landuse classes)
+10
+
+OUTPUTTYPE (Sets the output evaluation extent: 1 - only ZRVIEW; 2 - ZRVIEW and some Sums; 3 - full evaluation)
+1
+
+SC_FLAG (Calculation with variables of given subbasins ("0") or with nested catchments ("1")
+0
+
+STARTDATE (start date of simulation period in format yyyy mm dd hh mm)
+1981 01 01 00 00
+2000 10 01 00 00
+
+ENDDATE (end date of simulation period in format yyyy mm dd hh mm)
+2000 09 30 00 00
+2017 09 30 00 00
+
+OUTCONTROL (if set to "1", zonal values will be written for every time step: folder cdr/output is needed; very slow; outputtype must be "3"; otherwise set to "0")
+0
+
+SPINUP (length of spin-up period without evaluation [time-steps])
+365
+31
+
+RUNOFFFILE (default output file for runoff of single run, written to directory "output")
+CosReg.runoff
+
+STATSFILE (default output file for statistics of single run, written to directory "output")
+statistics.txt
+
+OPTFILE (default output file for progress of optimization, written to directory "output")
+optprogress.txt
+
+WRITERASTERS (write state/flux-rasters for the use in FEWS)
+raster_write.txt

@@ -1,0 +1,45 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.4.15-Madeira">
+  <identifier>LamaH\G_appendix\3_shapefiles\Grid_ERA5L.shp</identifier>
+  <parentidentifier>LamaH</parentidentifier>
+  <language>en</language>
+  <type>dataset</type>
+  <title>Grid_ERA5L.shp</title>
+  <abstract>Shapefile contains the grid cells of the dataset ERA5-Land in the area of interest.</abstract>
+  <contact>
+    <name>University of Natural Resources and Life Sciences, Institute for Hydrology and Water Management (HyWa), Vienna</name>
+    <organization></organization>
+    <position></position>
+    <voice></voice>
+    <fax></fax>
+    <email></email>
+    <role></role>
+  </contact>
+  <links>
+    <link description="" name="Zenodo" mimeType="" size="" format="" type="download" url="https://doi.org/10.5281/zenodo.4525244"/>
+  </links>
+  <fees></fees>
+  <license>Creative Commons Attribution 4.0</license>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys>
+      <proj4>+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>1000</srsid>
+      <srid>3035</srid>
+      <authid>EPSG:3035</authid>
+      <description>ETRS89 / LAEA Europe</description>
+      <projectionacronym>laea</projectionacronym>
+      <ellipsoidacronym>GRS80</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial minz="0" miny="2537459.95489999977871776" maxx="4983089.5071000000461936" dimensions="2" minx="4161876.77259999979287386" maxz="0" crs="EPSG:3035" maxy="3084020.68899999978020787"/>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>
