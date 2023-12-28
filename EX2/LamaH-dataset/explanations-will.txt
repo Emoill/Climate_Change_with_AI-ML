@@ -1,0 +1,26 @@
+Gauge - measuring device at a specific point
+Basin - the area of all water that flows to a specific point
+	- formally: "topographic catchment area of a gauge"
+
+
+folder structure: (left out files that don't seem important)
+
+A - measured by the total amount of water that passes through the gauge
+	1 - attributes
+		* Catchment_attributes - statistics about each gauge's basin
+		* Stream_dist          - distance from the farthest origin to the gauge
+		* Water_balance        - information about average rainfall at each gauge
+	2 - timeseries/daily
+		* each gauge has a file of measurements there over time (rain, temperature, sun)
+B - measured by the difference between a gauge & all gauges immediately upstream from it
+	1 - attributes
+		* Catchment_attributes       - same as before, except by this definition the basin is smaller
+		                         & no longer overlaps with other gauges
+		* Crossbasin_water_transfers - amount of water that moves between the basins?????
+		                               (i don't actually understand this one)
+		* Gauge-hierarchy            - shows which basins are further downstream from others
+		* Stream_dist                - distance to next gauge downstream
+	2 - timeseries/daily
+		* same as before
+C - same as B, except highly correlated gauges are merged together (to the downstream)
+D - information about each gauge.
