@@ -1,0 +1,10 @@
+Zusätzliche Hinweise zu den Zeitreihen.
+
+1. Einheit der Abflusszeitreihen ist m3/s. Die Umrechnung zur Abflusshöhe kann mit der bereitgestellten Einzugsgebietsfläche erfolgen (Attribut "area_gov" im Anhang A des zugehörigen Artikels).
+   Die Einheiten der meteorologischen Zeitreihen können dem Anhang A, während die Einheiten der Zeitreihen vom hydrologischen Modell dem Anhang C des zugehörigen Artikels entnommen werden können. 
+2. Zeitzone ist bei allen Zeitreihen UTC, d.h. also eine Zeitverschiebung von -1 Stunde im Vergleich zur CET sowie keine Zeitumstellung.
+3. Ein Wert der stündlichen Zeitreihe stellt den Mittelwert oder die Summe von der indizierten Stunde bis zur nächstfolgenden Stunde dar,
+   d.h. der Wert um 00:00 repräsentiert das Mittel oder die Summe von 00:00 bis 01:00.
+4. Der Ordner "D_gauges/2_timeseries/gaps" enthält die Zeitschritte mit Lücken in den "rohen" Abflusszeitreihen.
+   Bei der anschließenden Interpolation wurde die maximale Anzahl an aufeinanderfolgenden mit 6 festgelegt. Verbleibende Lücken sind in den Abflusszeitreihen mit der Nummer -999 gekennzeichnet.
+   In den meteorologischen Zeitreihen sind keine Lücken vorhanden.

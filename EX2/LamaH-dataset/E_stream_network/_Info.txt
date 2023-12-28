@@ -1,0 +1,32 @@
+Description of the attributes:
+
+After loading the shapefiles into a GIS, by default the STRAHLER orders are displayed. Order 1 and 2 are hidden for a better overview.
+
+--------------------------------
+
+1) EU-Hydro_network
+
+The shapefile EU-Hydro_network contains the layers "Canals_I" and "River_Net_I" (see documentation listed below) from the basins Rhine, Elbe and Danube.
+A Strahler order of -1 at the EU-Hydro_network indicates artificial channels. 
+
+30 attributes, see documentation at:
+https://land.copernicus.eu/user-corner/technical-library/eu-hydro_user_guide.pdf
+
+Reference: 
+EEA: EU-Hydro – River Network Database, Version 1.2, European Environment Agency under the framework of the Copernicus programme, available at: https://land.copernicus.eu/imagery-in-situ/eu-hydro/eu-hydro-river-network-database (last access: 22.10.2020), 2019.
+
+--------------------------------
+
+2) RiverATLAS
+
+297 attributes, see documentation at:
+https://www.hydrosheds.org/images/inpages/HydroRIVERS_TechDoc_v10.pdf
+https://www.hydrosheds.org/images/inpages/RiverATLAS_Catalog_v10.pdf
+https://www.hydrosheds.org/images/inpages/HydroATLAS_TechDoc_v10.pdf
+
+HydroATLAS dataset is available at:
+figshare data repository at https://doi.org/10.6084/m9.figshare.9890531
+
+Reference:
+Linke, S., Lehner, B., Ouellet Dallaire, C., Ariwi, J., Grill, G., Anand, M., Beames, P., Burchard-Levine, V., Maxwell, S., Moidu, H., Tan, F., and Thieme, M.: Global hydro-environmental sub-basin and river reach characteristics at high spatial resolution, Scientific Data, 6, 283, https://doi.org/10.1038/s41597-019-0300-6, 2019.
+Lehner, B. and Grill, G.: Global river hydrography and network routing: baseline data and new approaches to study the world’s large river systems, Hydrological Processes, 27(15), 2171–2186, https://doi.org/10.1002/hyp.9740, 2013.

@@ -1,6 +1,11 @@
+# jetbrains project files
 /.idea
+
 # models surpass githubs 100mb file size limit
 EX1/llm-part/model2/model.safetensors
 EX1/llm-part/model4/model.safetensors
 EX1/llm-part/model8/model.safetensors
 EX1/llm-part/modelfull/model.safetensors
+
+# exceeds github file limit
+EX2/LamaH-dataset/E_stream_network/EU-Hydro_network.shp

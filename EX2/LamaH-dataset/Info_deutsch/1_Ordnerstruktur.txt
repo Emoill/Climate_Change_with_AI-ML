@@ -1,0 +1,93 @@
+Ordnerstruktur:
+
+- A_basins_total_upstrm (Einzugsgebietsabgrenzung A, siehe Artikel Kapitel 3, Abb. 2a)
+  - 1_attributes
+    - Catchment_attributes.csv
+    - Stream_dist.csv
+    - Water_balance.csv
+  - 2_timeseries
+    - daily
+      - meteorologische Zeitreihen für 859 Einzugsgebiete
+  - 3_shapefiles (EPSG 3035)
+    - Basins_A.shp
+
+- B_basins_intermediate_all (Einzugsgebietsabgrenzung B, siehe Artikel Kapitel 3, Abb. 2b)
+  - 1_attributes
+    - Catchment_attributes.csv
+    - Crossbasin_water_transfers.csv
+    - Gauge_hierarchy.csv
+    - Stream_dist.csv
+  - 2_timeseries
+    - daily
+      - meteorologische Zeitreihen für 859 (Zwischen-)Einzugsgebiete
+  - 3_shapefiles (EPSG 3035)
+    - Basins_B.shp
+
+- C_basins_intermediate_lowimp (Einzugsgebietsabgrenzung C, siehe Artikel Kapitel 3, Abb. 2c)
+  - 1_attributes
+    - Catchment_attributes.csv
+    - Gauge_hierarchy.csv
+    - Stream_dist.csv
+  - 2_timeseries
+    - daily
+      - meteorologische Zeitreihen für 454 (Zwischen-)Einzugsgebiete
+  - 3_shapefiles (EPSG 3035)
+    - Basins_C.shp
+
+- D_gauges
+  - 1_attributes
+    - Gauge_attributes.csv
+    - Hydro_indices_1981_2017.csv (berechnet für die Periode vom ersten 01.10. der jeweiligen Zeitreihe nach 1981 bis zum 30.09.2017)
+    - Hydro_indices_1989_2009.csv (berechnet für die Periode 01.10.1989 bis 30.09.2009)
+  - 2_timeseries
+    - daily
+      - Abflusszeitreihen für 882 Pegel
+    - gaps
+      - Zeitschritte mit Lücken vor der Datenaufbereitung
+  - 3_shapefiles (EPSG 3035)
+    - Gauges.shp
+
+- E_river_network (EPSG 3035)
+  - _Info.txt
+  - EU-Hydro_network.shp
+  - RiverATLAS.shp
+
+- F_hydrol_model
+  - 1_input
+    - verschiedene Input files
+  - 2_timeseries
+    - Input- and Output-Zeitreihen für 859 (Zwischen-)Einzugsgebiete
+  - 3_shapefiles
+    - Hyd_model.shp
+    - verschiedene Stile zur Visualisierung von Hyd_model.shp in GIS
+  - 4_output
+    - parameter_calibrated.txt (kalibriertes Parameterfeld)
+    - statistics_cal.csv (Gütemaße für Kalibrierungsperiode)
+    - statistics_val.csv (Gütemaße für Validierungssperiode)
+  - Lookup_table_ID_NB.csv (ID - eindeutiger Identifikator in LamaH, NB - eindeutiger Identifikator im hydrologischen Modell COSERO)
+
+- G_appendix
+  - 1_attributes
+    - EU-Hydro_network_start_end_ID.csv (OBJECT_ID des Start- (am weitesten entfernt vom Gebietsauslass) und End- (Gebietsauslass) Flusssegments von EU-Hydro_network.shp, einzugsgebietsweise)
+  - 2_codes
+    - Python
+      - 1_attributes
+      - 2_supplement
+      - Info.txt
+    - R
+      - 1_attributes
+      - 2_timeseries
+      - 3_plots
+      - 4_supplement
+  - 3_shapefiles (EPSG 3035)
+    - _Info.txt (Information für Impacts.shp)
+    - GLiM.shp (überschneidende und reprojizierte Polygone aus dem GLiM-Datensatz)
+    - Grid_ERA5L.shp (überschneidende Rasterzellen des ERA5-Land Datensatzes)
+    - Impacts.shp (Verortung der Beeinflussungen auf Basis von Zwischeneinzugsgebieten)
+    - Mask_ctry.shp (Maske für die Abdeckung von Ländergrenzen)
+    - River_regions.shp (Fluss- und Makro-Flussregionen)
+    - Subbasins.shp (Teileinzugsgebiete vom Digitalen Hydrologischen Atlas Österreichs sowie von RiverATLAS)
+  - 4_plots
+    - GLiM_classes_colors.txt (Farbtabelle für Fig. 11a)
+    - LamaH Logos
+  - 5_CORINE_landcover

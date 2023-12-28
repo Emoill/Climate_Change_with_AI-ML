@@ -1,0 +1,16 @@
+Information for Impacts.shp:
+
+The features in this shapefile allocate the (anthropogenic) impacts on runoff process and measurement (attribute "typimpact" in Table 1) based on basin delineation B. 
+Impacts are thereby assigned only once, although they may still affect downstream gauges. 
+It should be noted that impacts do not necessarily have to be located in the same basin (e.g. storage power plant with cross-basin water transfer).
+
+Attributes:
+ID --> enables connection to the corresponding gauge/basin
+no --> individual number, no further meaning
+typimpact --> type of impact, see chapter 5.8 in paper
+GRAND_ID --> Dam-ID from the GRanD dataset (Lehner et al., 2011)
+DAM_ID --> Dam-ID from the GOODD dataset (Mulligan et al., 2020)
+
+Reference:
+Lehner, B., Liermann, C., Revenga, C., Vörösmarty, C., Fekete, B., et al.: High-resolution mapping of the world’s reservoirs and dams for sustainable river-flow management, Front. Ecol. Environ., 9(9), 494–502, https://doi.org/10.1890/100125, 2011.
+Mulligan, M., van Soesbergen, A., and Saenz, L.: GOODD, a global dataset of more than 38,000 georeferenced dams, Sci. Data, 7(31), https://doi.org/10.1038/s41597-020-0362-5, 2020.

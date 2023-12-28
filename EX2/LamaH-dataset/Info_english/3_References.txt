@@ -1,0 +1,51 @@
+The following references are required additionally, when using the LamaH dataset:
+
+BAFU: Federal Office for the Environment – Hydrology Division, Bern, Switzerland (runoff data received: 23.09.2020), 2020.
+
+CHMI: Czech Hydrometeorological Institute, Brno, Czech Republic (runoff data received: 14.12.2020), 2020.
+
+GKD: Bavarian State Office for the Environment – Hydrographic Service, Munich, Germany, available at: https://www.gkd.bayern.de/en/rivers/discharge/tables (runoff data downloaded: 15.09.2020), 2020.
+
+HZB:  Federal Ministry of Agriculture, Regions and Tourism – Hydrographic Central Office, Vienna, Austria (runoff data received: 08.09.2020), 2020.
+
+LUBW: State Agency for the Environment Baden-Württemberg – Hydrographic Service, Karlsruhe, Germany, available at: http://udo.lubw.baden-wuerttemberg.de/public/p/pegel_messwerte_leer (runoff data received: 04.09.2020), 2020.
+
+BMLFUW: Hydrographic Yearbook of Austria 2013, Federal Ministry of Agriculture, Regions and Tourism – Hydrographic Central Office, Vienna, Austria, available at: https://www.bmlrt.gv.at/dam/jcr:bb100102-eac3-4b51-8d8d-f40b94e5d546/Jahrbuch_2013_Datenteil.pdf (last access: 16.12.2020), 2013.
+
+Broxton, P. D., Zeng, X., Scheftic, W., and Troch P. A.: A MODIS-Based Global 1-km Maximum Green Vegetation Fraction Dataset, Journal of applied Meteorology and Climatology, 53, 1996–2004, https://doi.org/10.1175/JAMC-D-13-0356.1, 2014. 
+
+CORINE: CORINE Land Cover 2012, European Environment Agency, Copenhagen, Denmark, available at: https://land.copernicus.eu/pan-european/corine-land-cover (last access: 02.03.2020), 2012.
+
+EEA: EU-Hydro – River Network Database, Version 1.2, European Environment Agency under the framework of the Copernicus programme, available at: https://land.copernicus.eu/imagery-in-situ/eu-hydro/eu-hydro-river-network-database (last access: 22.10.2020), 2019.
+
+ESDB: The European Soil Database distribution version 2.0, European Commission and the European Soil Bureau Network, CD-ROM, EUR 19945 EN, 2004.
+
+Farr, T. G., Rosen, P. A., Caro, E., Crippen, R., Duren, R., Hensley, S., Kobrick, M., Paller, M., Rodriguez, E., Roth, L., Seal, D., Shaffer, S., Shimada, J., Umland, J., Werner, M., Oskin, M., Burbank, D., and Alsdorf, D. E.: The shuttle radar topography mission: Reviews of Geophysics, 45, 2, RG2004, available at: https://doi.org/10.1029/2005RG000183, 2007.
+
+Friedl, M. and Sulla-Menashe, D.: MCD12Q1 MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V006 [Data set], NASA EOSDIS Land Processes DAAC, available at: https://doi.org/10.5067/MODIS/MCD12Q1.006 (last access: 12.03.2020), 2019.
+
+Gleeson, T., Moosdorf, N., Hartmann, J., and van Beek, L. P. H.: A glimpse beneath earth’s surface: GLobal HYdrogeology MaPS (GLHYMPS) of permeability and porosity, Geophys. Res. Lett., 41, 3891–3898, https://doi.org/10.1002/2014GL059856, available at: https://dataverse.scholarsportal.info/dataset.xhtml?persistentId=doi:10.5683/SP2/DLGXYO (last access: 12.03.2020), 2014.
+
+HAO: Hydrological Atlas of Austria (digHAO), 3. Delivery, Federal Ministry of Agriculture, Regions and Tourism – Hydrographic Central Office, Vienna, Austria, ISBN 3-85437-250-7, 2007.
+
+Hartmann, J. and Moosdorf, N.: The new global lithological map database GLiM: A representation of rock properties at the Earth surface, Geochem. Geophy. Geosy., 13, 1–37, https://doi.org/10.1029/2012GC004370, 2012.
+
+Hiederer, R.: Mapping Soil Properties for Europe - Spatial Representation of Soil Database Attributes, Luxembourg: Publications Office of the European Union, 47pp, EUR26082EN Scientific and Technical Research series, ISSN 1831- 9424, https://doi.org/10.2788/94128, 2013a.
+
+Hiederer, R.: Mapping Soil Typologies - Spatial Decision Support Applied to European Soil Database, Luxembourg: Publications Office of the European Union, 147pp, EUR25932EN Scientific and Technical Research series, ISSN 1831–9424, https://doi.org/doi:10.2788/8728, 2013b.
+
+Linke, S., Lehner, B., Ouellet Dallaire, C., Ariwi, J., Grill, G., Anand, M., Beames, P., Burchard-Levine, V., Maxwell, S., Moidu, H., Tan, F., and Thieme, M.: Global hydro-environmental sub-basin and river reach characteristics at high spatial resolution, Scientific Data, 6, 283, https://doi.org/10.1038/s41597-019-0300-6, 2019.
+
+Muñoz Sabater, J., Dutra, E., Agustí-Panareda, A., Albergel, C., Arduini, G., Balsamo, G., Boussetta, S., Choulga, M., Harrigan, S., Hersbach, H., Martens, B., Miralles, D. G., Piles, M., Rodríguez-Fernández, N. J., Zsoter, E., Buontempo, C., and Thépaut, J. N.: ERA5-Land: A state-of-the-art global reanalysis dataset for land applications, Earth Syst. Sci. Data Discuss. [preprint], in review, https://doi.org/10.5194/essd-2021-82, 2021.
+
+Muñoz Sabater, J.: ERA5-Land hourly data from 1981 to present, Copernicus Climate Change Service (C3S) Climate Data Store (CDS), available at: https://doi.org/10.24381/cds.e2161bac (last access: 22.10.2020), 2019a.
+
+Myneni, R., Knyazikhin, Y., and Park, T.: MCD15A3H MODIS/Terra+Aqua Leaf Area Index/FPAR 4-day L4 Global 500m SIN Grid V006 [Data set], NASA EOSDIS Land Processes DAAC, available at: https://doi.org/10.5067/MODIS/MCD15A3H.006 (last access: 12.03.2020), 2015.
+
+Pelletier, J. D., Broxton, P. D., Hazenberg, P., Zeng, X., Troch, P. A., Niu, G., Williams, Z. C., Brunke, M. A., and Gochis, D.: Global 1-km Gridded Thickness of Soil, Regolith, and Sedimentary Deposit Layers. ORNL DAAC, Oak Ridge, Tennessee, USA, https://doi.org/10.3334/ORNLDAAC/1304, 2016.
+
+Toth, B., Weynants, M., Pasztor, L., and Hengl, T.: 3D soil hydraulic database of Europe at 250 m resolution, Hydrological Processes, 31, 2662–2666, https://doi.org/10.1002/hyp.11203, 2017.
+
+Trabucco, A. and Zomer, R.: Global Aridity Index and Potential Evapotranspiration (ET0) Climate Database v2, CGIAR Consortium for Spatial Information (CGIAR-CSI), published online, available at: https://doi.org/10.6084/m9.figshare.7504448.v3 (last access: 18.03.2020), 2019.
+
+Vermote, E.: MOD09Q1 MODIS/Terra Surface Reflectance 8-Day L3 Global 250m SIN Grid V006 [Data set], NASA EOSDIS Land Processes DAAC, available at: https://doi.org/10.5067/MODIS/MOD09Q1.006 (last access: 12.03.2020), 2015.

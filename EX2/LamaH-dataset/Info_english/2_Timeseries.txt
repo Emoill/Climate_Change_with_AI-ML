@@ -1,0 +1,10 @@
+Additional information regarding the time series.
+
+1. Unit of runoff data is m3/s. Conversion to runoff heights can be performed using the catchment area provided (attribute “area_gov” in Appendix A of the accompanying paper). 
+   The units of the meteorological time series can be obtained from Appendix A of the accompanying paper, while the units of the fluxes of the hydrological model are noted in Appendix C.
+2. The timezone for all time series is UTC (no summer time).
+3. One value of the hourly time series represents the mean or sum from the indexed hour to the next following hour, 
+   i.e. the value at 00:00 indicates the mean or sum from 00:00 to 01:00.
+4. The folder "D_gauges/2_timeseries/gaps" contains the timesteps with no runoff data before interpolation.
+   The maximum gap number for interpolation was set to 6. Remaining gaps are indicated in the provided runoff time series by the number -999.
+   The meteorological time series have no gaps.

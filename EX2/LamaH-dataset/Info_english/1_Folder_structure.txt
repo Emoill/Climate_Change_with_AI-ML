@@ -1,0 +1,93 @@
+Folder structure:
+
+- A_basins_total_upstrm (basin delineation A, see article chapter 3, Fig. 2a)
+  - 1_attributes
+    - Catchment_attributes.csv
+    - Stream_dist.csv
+    - Water_balance.csv
+  - 2_timeseries
+    - daily
+      - meteorological time series for 859 catchments
+  - 3_shapefiles (EPSG 3035)
+    - Basins_A.shp
+
+- B_basins_intermediate_all (basin delineation B, see article chapter 3, Fig. 2b)
+  - 1_attributes
+    - Catchment_attributes.csv
+    - Crossbasin_water_transfers.csv
+    - Gauge_hierarchy.csv
+    - Stream_dist.csv
+  - 2_timeseries
+    - daily
+      - meteorological time series for 859 (intermediate) catchments
+  - 3_shapefiles (EPSG 3035)
+    - Basins_B.shp
+
+- C_basins_intermediate_lowimp (basin delineation C, see article chapter 3, Fig. 2c)
+  - 1_attributes
+    - Catchment_attributes.csv
+    - Gauge_hierarchy.csv
+    - Stream_dist.csv
+  - 2_timeseries
+    - daily
+      - meteorological time series for 454 (intermediate) catchments
+  - 3_shapefiles (EPSG 3035)
+    - Basins_C.shp
+
+- D_gauges
+  - 1_attributes
+    - Gauge_attributes.csv
+    - Hydro_indices_1981_2017.csv (calculated for the period from the first 1 October in the individual time series after 1981 to 30 September 2017)
+    - Hydro_indices_1989_2009.csv (calculated for the period 1 October 1989 to 30 September 2009)
+  - 2_timeseries
+    - daily
+      - runoff time series for 882 gauges
+    - gaps
+      - timesteps with gaps before interpolation
+  - 3_shapefiles (EPSG 3035)
+    - Gauges.shp
+
+- E_river_network (EPSG 3035)
+  - _Info.txt
+  - EU-Hydro_network.shp
+  - RiverATLAS.shp
+
+- F_hydrol_model
+  - 1_input
+    - various input files
+  - 2_timeseries
+    - input and output fluxes for 859 (intermediate) catchments
+  - 3_shapefiles
+    - Hyd_model.shp
+    - various styles for visualization of Hyd_model.shp in GIS
+  - 4_output
+    - parameter_calibrated.txt (calibrated parameter field)
+    - statistics_cal.csv (statistics for calibration period)
+    - statistics_val.csv (statistics for validation period)
+  - Lookup_table_ID_NB.csv (ID - unique identifier in LamaH, NB - unique identifier in the hydrological model COSERO)
+
+- G_appendix
+  - 1_attributes
+    - EU-Hydro_network_start_end_ID.csv (start- (most distant to the basin outlet) and end- (basin outlet) OBJECT_ID of the river segment from EU-Hydro_network.shp, basinwise)
+  - 2_codes
+    - Python
+      - 1_attributes
+      - 2_supplement
+      - Info.txt
+    - R
+      - 1_attributes
+      - 2_timeseries
+      - 3_plots
+      - 4_supplement
+  - 3_shapefiles (EPSG 3035)
+    - _Info.txt (Information for Impacts.shp)
+    - GLiM.shp (intersecting and reprojected polygons from the GLiM dataset)
+    - Grid_ERA5L.shp (intersecting grids from the ERA5-Land dataset)
+    - Impacts.shp (Localization of impacts based on intermediate catchments)
+    - Mask_ctry.shp (Mask for covering country borders)
+    - River_regions.shp (River- and Macro-River regions)
+    - Subbasins.shp (Subbasins from the Digital Hydrological Atlas of Austria and from RiverATLAS)
+  - 4_plots
+    - GLiM_classes_colors.txt (color table for Fig. 11a)
+    - LamaH logos
+  - 5_CORINE_landcover
