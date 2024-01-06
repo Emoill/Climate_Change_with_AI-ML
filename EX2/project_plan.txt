@@ -1,10 +1,31 @@
-what models to use?
 
-Instructions:
-> Model: At least four types of models – time series/ Neural networks (NNs) Depp NNs (DNNs)/ regression models and any other variants
+* Preprocessing - Analysis + Imputation
+	1. data loading
+	2. null value analysis
+		-> we have none
+	3. statistical analysis
+	4. data preprocessing
+	5. discuss data quality & engineering
 
-ideas
-1. ARIMA (AutoRegressive Integrated Moving Average) model
-2. LSTM (long short term memory) - a type of RNN (recurrent neural network)
-3. Gated Recurrent units (GRUs) - also a type of RNN
-4. Prophet - additive linear model for timeseries data
+* Develop ML models to forecast precipitation
+	1. ARIMA (AutoRegressive Integrated Moving Average) model
+	2. LSTM (long short term memory) - a type of RNN (recurrent neural network)
+	3. Gated Recurrent units (GRUs) - also a type of RNN
+	4. Prophet - additive linear model for timeseries data
+
+	* Each model need not be optimized for hyperparameters for initial experiments. Select the best performing model and then optimize hyperparameters of that model to study the best achievable results
+
+* Analyze the tradeoffs among the models
+	Perform a feature importance study, and report which features are significant in predicting the target variable. Different forecasting models have their own way for presenting feature importance. Follow the model specific method and present the table/plots
+
+
+* Report 6-8 pages
+	1. introduction
+	2. background
+	3. data analysis
+	4. experiments & results
+		* graph of RMSE for each model
+		* graph of feature importance for each model
+	5. conclusions
+* Presentation
+
