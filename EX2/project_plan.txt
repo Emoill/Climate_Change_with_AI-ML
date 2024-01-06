@@ -1,0 +1,10 @@
+what models to use?
+
+Instructions:
+> Model: At least four types of models – time series/ Neural networks (NNs) Depp NNs (DNNs)/ regression models and any other variants
+
+ideas
+1. ARIMA (AutoRegressive Integrated Moving Average) model
+2. LSTM (long short term memory) - a type of RNN (recurrent neural network)
+3. Gated Recurrent units (GRUs) - also a type of RNN
+4. Prophet - additive linear model for timeseries data
