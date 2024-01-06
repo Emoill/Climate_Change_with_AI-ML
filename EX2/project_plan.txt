@@ -8,7 +8,7 @@
 	5. discuss data quality & engineering
 
 * Develop ML models to forecast precipitation (target variable: prec)
-	1. ARIMA (AutoRegressive Integrated Moving Average) model
+	1. SARIMA (Seasonal AutoRegressive Integrated Moving Average) model
 	2. LSTM (long short term memory) - a type of RNN (recurrent neural network)
 	3. Gated Recurrent units (GRUs) - also a type of RNN
 	4. Prophet - additive linear model for timeseries data
