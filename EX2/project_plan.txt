@@ -8,10 +8,10 @@
 	5. discuss data quality & engineering
 
 * Develop ML models to forecast precipitation (target variable: prec)
-	1. SARIMA (Seasonal AutoRegressive Integrated Moving Average) model
-	2. LSTM (long short term memory) - a type of RNN (recurrent neural network)
-	3. Gated Recurrent units (GRUs) - also a type of RNN
-	4. Prophet - additive linear model for timeseries data
+	1. Non-parametric: KNN
+	2. Deep Neural Network: Long Short Term Memory
+	3. Regression: Ridge?
+	4. Time-Series: Prophet (additive linear model for timeseries data)
 
 	* Each model need not be optimized for hyperparameters for initial experiments. Select the best performing model and then optimize hyperparameters of that model to study the best achievable results
 
