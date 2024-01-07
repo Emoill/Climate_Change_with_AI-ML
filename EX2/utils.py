@@ -11,7 +11,7 @@ def get_test_table(scaled=False):
 
     df = pd.read_csv(file)
 
-    df = df.sort_values('date_column')
+    df = df.sort_values('date')
 
     response = 'prec'
     X = df.drop([response], axis=1)
