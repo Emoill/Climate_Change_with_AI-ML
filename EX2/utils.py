@@ -4,10 +4,11 @@ import pandas as pd
 seed = 42
 
 
-def get_test_table(scaled: bool = False, train_size: int = .7):
+def get_test_table(scaled: bool = False, drop_date = False, train_size: int = .7):
 	"""
 	returns a train & test set from the temporary table located in /data_temp
 	:param scaled: whether to use the scaled or unscaled table
+	:param drop_date: remove the date column before splitting
 	:param train_size: proportion of the data to use for training
 	:return: X_train, X_test, y_train, y_test
 	"""
@@ -17,7 +18,11 @@ def get_test_table(scaled: bool = False, train_size: int = .7):
 		file = 'data_temp/gauge24.csv'
 
 	df = pd.read_csv(file).drop('Unnamed: 0', axis=1)
-	df['date'] = pd.to_datetime(df['date'])
+
+	if drop_date:
+		df = df.drop('date', axis=1)
+	else:
+		df['date'] = pd.to_datetime(df['date'])
 
 	response = 'prec'
 	X = df.drop([response], axis=1)
