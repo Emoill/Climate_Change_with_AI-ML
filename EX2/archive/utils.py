@@ -13,9 +13,9 @@ def get_test_table(scaled: bool = False, drop_date = False, train_size: int = .7
 	:return: X_train, X_test, y_train, y_test
 	"""
 	if scaled:
-		file = 'data_temp/gauge24scaled.csv'
+		file = '../data_temp/gauge24scaled.csv'
 	else:
-		file = 'data_temp/gauge24.csv'
+		file = '../data_temp/gauge24.csv'
 
 	df = pd.read_csv(file).drop('Unnamed: 0', axis=1)
 
